@@ -13,9 +13,9 @@ and open the template in the editor.
         
        <form method='POST' action='index.php?uc=gererClients&action=insererClient'>
           
+           <h2>ENREGISTREZ UN NOUVEAU CLIENT</h2>
 
-	<h2>ENREGISTREZ UN NOUVEAU CLIENT</h2>
-        <form method='POST' action='index.php?uc=gererClients=insererClient'>
+	
     <input id="nom" name="nom" type="text" class="text-field" placeholder="Nom" /><br><br>
     <input id="prenom" name="prenom" type="text" class="text-field" placeholder="Prenom" /><br><br>
     <input id="adresse" name="adresse" type="text" class="text-field" placeholder="Adresse" /><br><br>
@@ -26,11 +26,11 @@ and open the template in the editor.
     <input id="telephone2" name="telephone2" type="text" class="text-field" placeholder="Téléphone 2" /><br><br>
     
     
-   
+   <input type="submit" value="Enregistrer" class="button" />
    
     </form>  
    
-    <input type="submit" value="Enregistrer" class="button" />
+    
 
 
       

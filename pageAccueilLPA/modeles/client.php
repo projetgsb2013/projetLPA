@@ -8,7 +8,7 @@ class client{
     private $prenom;
     private $adresse;
     private $CP;
-    private $ville;
+          
     private $telephone1;
     private $telephone2;
     
@@ -31,10 +31,6 @@ class client{
     function getCP(){
         return $this->CP;
     }
-    function getVille(){
-        return $this->ville;
-    }
-       
     function getTelephone1(){
         return $this->telephone1;
     }
@@ -44,12 +40,12 @@ class client{
     
     // FONCTION AJOUTER CLIENT
     
-    public function ajoutClient($nom,$prenom,$adresse,$CP,$ville,$telephone1,$telephone2)
+    public function ajoutClient($nom,$prenom,$adresse,$CP,$telephone1,$telephone2)
     {
         //CONNEXION A LA BDD
     
     
-    
+    $bd=new PDO('mysql:host=localhost;dbname=projetlpa','root','');
     try{
         $bd=new PDO('mysql:host=localhost;dbname=projetlpa','root','');
     }
@@ -59,7 +55,7 @@ class client{
         
     }
          
-    $requete="INSERT INTO client VALUES('','$nom','$prenom','$adresse','$CP','$ville','$telephone1','$telephone2')";
+    $requete="INSERT INTO client VALUES('','$nom','$prenom','$adresse','$CP','$telephone1','$telephone2')";
     $bd->exec($requete);
         
         
