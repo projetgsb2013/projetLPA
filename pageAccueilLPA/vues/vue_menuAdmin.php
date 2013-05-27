@@ -15,6 +15,7 @@ and open the template in the editor.
         <ul>
             <li><a href="index.php?uc=navigationBarreAccueil&action=vueMenuAdmin">ADMINISTRATION</a></li>
             <li><a href="index.php?uc=navigationBarreAccueil&action=vueFormulaireNouveauClient">NOUVEAU CLIENT</a></li>
+            <li><a href="index.php?uc=navigationBarreAccueil&action=vueNouvelAnimal">NOUVEL ANIMAL</a></li>
             <li><a href="index.php?uc=navigationBarreAccueil&action=vueNouvelleEntree">NOUVELLE ENTREE</a></li>
         </ul>
            

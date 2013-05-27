@@ -1,6 +1,6 @@
 
 <?php
-require_once('./vues/vue_formulaireNouveauClient.php');
+require_once('./vues/vue_formulaireNouvelAnimal.php');
 require_once('./modeles/animal.php');
 $action=$_REQUEST['action'];
 switch($action){

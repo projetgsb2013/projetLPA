@@ -26,7 +26,13 @@ switch($action){
     }
     case 'vueNouvelleEntree':{
         
-        include("/vues/vue_nouveauClient.php");
+        include("vues/vue_nouveauClient.php");
+        break;
+    }
+    
+    case 'vueNouvelAnimal':{
+        
+        include("vues/vue_formulaireNouvelAnimal.php");
         break;
     }
     
